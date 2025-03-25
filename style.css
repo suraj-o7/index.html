@@ -1,0 +1,127 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f4;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Card Styling */
+.card {
+    background: #fff;
+    box-shadow: 0 0 10px #ccc;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px #aaa;
+}
+
+.card h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.card p, .card ul {
+    font-size: 1rem;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    background: #f1f1f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #3498db;
+    transition: 0.3s;
+}
+
+.card ul li:hover {
+    background: #d3e0ea;
+}
+
+/* Links & Buttons */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+    .card {
+        padding: 20px;
+    }
+}
